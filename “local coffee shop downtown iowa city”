@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the fictional Willow & Bean downtown Iowa City coffee shop concept, with neighborhood charm, espresso favorites, pastries, and a welcoming atmosphere.">
+  <title>Local Coffee Shop Downtown Iowa City | Willow &amp; Bean</title>
+  <style>
+    :root {
+      --cream: #faf7f0;
+      --green: #284b3c;
+      --sage: #dce5d8;
+      --brown: #79553b;
+      --ink: #292d29;
+      --white: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--cream);
+      color: var(--ink);
+      line-height: 1.7;
+    }
+
+    .notice {
+      background: #eee8dc;
+      color: #333;
+      padding: 12px 18px;
+      text-align: center;
+      font-size: 0.85rem;
+    }
+
+    header {
+      background: var(--green);
+      color: var(--white);
+      padding: 24px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2rem, 6vw, 3rem);
+    }
+
+    header p { margin: 6px 0 0; }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px 22px;
+      padding: 16px;
+      background: var(--sage);
+    }
+
+    nav a {
+      color: var(--green);
+      font-weight: bold;
+      text-decoration: none;
+      padding: 5px 0;
+    }
+
+    nav a:hover, nav a:focus { text-decoration: underline; }
+
+    main {
+      width: min(100% - 36px, 900px);
+      margin: 32px auto;
+    }
+
+    .hero {
+      background: var(--green);
+      color: var(--white);
+      padding: clamp(28px, 6vw, 55px);
+      border-radius: 14px;
+    }
+
+    .hero h2 {
+      color: var(--white);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2rem, 5vw, 2.8rem);
+      line-height: 1.2;
+      margin-top: 0;
+    }
+
+    h2, h3 {
+      color: var(--green);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.3;
+    }
+
+    section { margin: 36px 0; }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--white);
+      border: 1px solid #e5dfd3;
+      border-radius: 10px;
+      padding: 22px;
+    }
+
+    .card h3 { margin-top: 0; }
+
+    .highlight {
+      background: var(--sage);
+      border-radius: 10px;
+      padding: 22px;
+    }
+
+    a { color: var(--brown); }
+
+    footer {
+      margin-top: 44px;
+      padding: 26px 18px;
+      background: var(--green);
+      color: var(--white);
+      text-align: center;
+    }
+
+    footer p { margin: 8px auto; max-width: 800px; }
+    footer a { color: var(--white); }
+
+    @media (max-width: 480px) {
+      nav { gap: 6px 15px; }
+      main { width: min(100% - 24px, 900px); margin: 20px auto; }
+      .hero { border-radius: 9px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="notice">
+    This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+  </div>
+
+  <header>
+    <h1>Willow &amp; Bean Coffee Co.</h1>
+    <p>A neighborhood coffee shop concept with downtown charm</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="iowa-city-coffee-shop.html">Our Coffee</a>
+    <a href="downtown-coffee.html">Downtown Location</a>
+    <a href="coffee-shop-wifi.html">Study &amp; Wi-Fi</a>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <h2>Your imagined local coffee shop in downtown Iowa City</h2>
+      <p>
+        Looking for a local coffee shop downtown Iowa City? Willow &amp;
+        Bean Coffee Co. is a fictional neighborhood café designed for people
+        who enjoy a great cup of coffee in a relaxed, friendly setting.
+      </p>
+      <p>
+        Imagine stopping in before work, meeting a friend between classes,
+        or taking a quiet break during a busy day downtown. Our concept
+        brings together familiar coffee favorites and a comfortable place
+        to pause.
+      </p>
+    </section>
+
+    <section>
+      <h2>What Makes a Neighborhood Café Special?</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>A Welcoming Atmosphere</h3>
+          <p>
+            Our fictional café features warm lighting, natural wood,
+            greenery, and seating that encourages guests to stay awhile.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Drinks for Every Routine</h3>
+          <p>
+            Picture espresso, cappuccinos, iced lattes, and brewed coffee
+            prepared for both quick visits and slower mornings.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Small Moments of Connection</h3>
+          <p>
+            The concept is built around casual conversations, study breaks,
+            familiar faces, and the everyday rhythm of a college town.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>A Downtown-Inspired Menu</h2>
+      <p>
+        Willow &amp; Bean's fictional menu balances classic coffeehouse
+        staples with a few seasonal ideas. A morning visitor might choose
+        a cappuccino and croissant, while an afternoon guest might prefer
+        cold brew and a blueberry muffin.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Morning Pairing</h3>
+          <p>Drip coffee with a buttery croissant.</p>
+          <p><strong>Imagined price:</strong> $6.00</p>
+        </article>
+
+        <article class="card">
+          <h3>Afternoon Pick-Me-Up</h3>
+          <p>An iced latte with a freshly baked muffin.</p>
+          <p><strong>Imagined price:</strong> $8.00</p>
+        </article>
+
+        <article class="card">
+          <h3>Seasonal Favorite</h3>
+          <p>A maple oat latte inspired by cozy Midwestern flavors.</p>
+          <p><strong>Imagined price:</strong> $5.50</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="highlight">
+      <h2>Designed Around Iowa City</h2>
+      <p>
+        In our fictional backstory, owners Maya Bennett and Lucas Reed
+        imagined Willow &amp; Bean as a place where students, residents,
+        and visitors could all feel comfortable. Its downtown-inspired
+        identity reflects the mix of campus energy and independent
+        neighborhood businesses that people often associate with a
+        college town.
+      </p>
+      <p>
+        The business and its owners are invented. This page does not
+        represent a real downtown storefront.
+      </p>
+    </section>
+
+    <section>
+      <h2>Plan Your Visit</h2>
+      <p><strong>Fictional address:</strong> 123 Willow Lane, Iowa City, IA</p>
+      <p><strong>Monday–Friday:</strong> 7:00 a.m.–6:00 p.m.</p>
+      <p><strong>Saturday–Sunday:</strong> 8:00 a.m.–4:00 p.m.</p>
+      <p>
+        Need somewhere to open your laptop? See our
+        <a href="coffee-shop-wifi.html">coffee shop with Wi-Fi</a>
+        page for the fictional workspace concept, or return to the
+        <a href="index.html">homepage</a> to explore the full café story.
+      </p>
+      <p>
+        All address, schedule, menu, and business details are invented
+        for a University of Iowa marketing class project.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+    </p>
+    <p>Willow &amp; Bean Coffee Co. | Iowa City, Iowa</p>
+    <p>
+      <a href="index.html">Home</a> |
+      <a href="iowa-city-coffee-shop.html">Our Coffee</a> |
+      <a href="downtown-coffee.html">Downtown Location</a> |
+      <a href="coffee-shop-wifi.html">Study &amp; Wi-Fi</a>
+    </p>
+  </footer>
+</body>
+</html>
