@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meet Willow & Bean Coffee Co., a fictional Iowa City coffee shop serving fresh coffee, homemade pastries, and a welcoming place to connect.">
+  <title>Willow & Bean Coffee Co. | Iowa City Coffee Shop</title>
+  <style>
+    :root {
+      --cream: #faf7f0;
+      --green: #284b3c;
+      --sage: #dce5d8;
+      --brown: #79553b;
+      --ink: #292d29;
+      --white: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--cream);
+      color: var(--ink);
+      line-height: 1.7;
+    }
+
+    .notice {
+      background: #eee8dc;
+      color: #333;
+      padding: 12px 18px;
+      text-align: center;
+      font-size: 0.85rem;
+    }
+
+    header {
+      background: var(--green);
+      color: var(--white);
+      padding: 24px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2rem, 6vw, 3rem);
+    }
+
+    header p { margin: 6px 0 0; }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px 22px;
+      padding: 16px;
+      background: var(--sage);
+    }
+
+    nav a {
+      color: var(--green);
+      font-weight: bold;
+      text-decoration: none;
+      padding: 5px 0;
+    }
+
+    nav a:hover, nav a:focus {
+      text-decoration: underline;
+    }
+
+    main {
+      width: min(100% - 36px, 900px);
+      margin: 32px auto;
+    }
+
+    .hero {
+      background: var(--green);
+      color: var(--white);
+      padding: clamp(28px, 6vw, 60px);
+      border-radius: 14px;
+    }
+
+    .hero h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.2;
+      margin-top: 0;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 11px 18px;
+      border-radius: 6px;
+      background: var(--sage);
+      color: var(--green);
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    section { margin: 36px 0; }
+
+    h2, h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--green);
+      line-height: 1.3;
+    }
+
+    .hero h2 { color: var(--white); }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--white);
+      border: 1px solid #e5dfd3;
+      border-radius: 10px;
+      padding: 22px;
+    }
+
+    .card h3 { margin-top: 0; }
+
+    .hours {
+      background: var(--sage);
+      padding: 22px;
+      border-radius: 10px;
+    }
+
+    footer {
+      margin-top: 44px;
+      padding: 26px 18px;
+      background: var(--green);
+      color: var(--white);
+      text-align: center;
+    }
+
+    footer p { margin: 8px auto; max-width: 800px; }
+    footer a { color: var(--white); }
+
+    @media (max-width: 480px) {
+      nav { gap: 6px 15px; }
+      main { width: min(100% - 24px, 900px); margin: 20px auto; }
+      .hero { border-radius: 9px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="notice">
+    This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+  </div>
+
+  <header>
+    <h1>Willow &amp; Bean Coffee Co.</h1>
+    <p>Good coffee. Good company. A little room to slow down.</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="iowa-city-coffee-shop.html">Our Coffee</a>
+    <a href="downtown-coffee.html">Downtown Location</a>
+    <a href="coffee-shop-wifi.html">Study &amp; Wi-Fi</a>
+  </nav>
+
+  <main>
+    <div class="hero">
+      <h2>Your neighborhood coffee break starts here.</h2>
+      <p>
+        Welcome to Willow &amp; Bean Coffee Co., a fictional locally owned
+        coffee shop imagined for the heart of Iowa City. We believe a great
+        cup of coffee can make an ordinary morning feel special.
+      </p>
+      <p>
+        Whether you are meeting a friend, grabbing a latte before class,
+        or settling in with a good book, there is a place for you here.
+      </p>
+      <a class="button" href="iowa-city-coffee-shop.html">Explore Our Coffee</a>
+    </div>
+
+    <section>
+      <h2>A little coffee, a lot of comfort</h2>
+      <p>
+        Founded in our fictional story by friends Maya Bennett and Lucas Reed,
+        Willow &amp; Bean was designed around a simple idea: coffee shops
+        should feel welcoming to everyone. Our imagined menu pairs carefully
+        prepared espresso drinks with fresh pastries and seasonal favorites.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Freshly Brewed</h3>
+          <p>
+            Enjoy a smooth drip coffee, a rich espresso, or a creamy latte
+            made to fit your morning routine.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Made for the Moment</h3>
+          <p>
+            From a quick takeaway cup to a slow afternoon conversation,
+            choose the kind of coffee break you need.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>A Place to Settle In</h3>
+          <p>
+            Picture warm wood, leafy plants, comfortable seating, and a
+            relaxed atmosphere for catching up or getting work done.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>What is on the menu?</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Espresso Favorites</h3>
+          <p>Classic cappuccinos, vanilla lattes, americanos, and flat whites.</p>
+        </article>
+
+        <article class="card">
+          <h3>Slow Coffee</h3>
+          <p>Drip coffee and cold brew for anyone who likes to keep things simple.</p>
+        </article>
+
+        <article class="card">
+          <h3>Something Sweet</h3>
+          <p>Imagine flaky croissants, blueberry muffins, and cinnamon coffee cake.</p>
+        </article>
+      </div>
+      <p>
+        Explore our <a href="iowa-city-coffee-shop.html">Iowa City coffee shop</a>
+        page to learn more about our fictional drinks and neighborhood-inspired
+        approach.
+      </p>
+    </section>
+
+    <section class="hours">
+      <h2>Plan Your Coffee Break</h2>
+      <p><strong>Fictional address:</strong> 123 Willow Lane, Iowa City, IA</p>
+      <p><strong>Monday–Friday:</strong> 7:00 a.m.–6:00 p.m.</p>
+      <p><strong>Saturday–Sunday:</strong> 8:00 a.m.–4:00 p.m.</p>
+      <p>
+        These details are part of a classroom concept, not a real storefront
+        or operating schedule.
+      </p>
+      <p>
+        Looking for a place to work? Visit our
+        <a href="coffee-shop-wifi.html">study and Wi-Fi page</a>
+        for the imagined workspace details.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+    </p>
+    <p>Willow &amp; Bean Coffee Co. | Iowa City, Iowa</p>
+    <p>
+      <a href="index.html">Home</a> |
+      <a href="iowa-city-coffee-shop.html">Our Coffee</a> |
+      <a href="downtown-coffee.html">Downtown Location</a> |
+      <a href="coffee-shop-wifi.html">Study &amp; Wi-Fi</a>
+    </p>
+  </footer>
+</body>
+</html>
